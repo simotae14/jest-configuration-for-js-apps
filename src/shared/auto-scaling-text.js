@@ -4,7 +4,7 @@ import styles from './auto-scaling-text.module.css'
 
 function getScale(node) {
   if (!node) {
-    return 2
+    return 1
   }
   const parentNode = node.parentNode
 
