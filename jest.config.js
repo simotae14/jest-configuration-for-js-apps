@@ -16,4 +16,6 @@ module.exports = {
   setupFilesAfterEnv: ['@testing-library/jest-dom/extend-expect'],
   // add emotion as snapshot Serializer
   snapshotSerializers: ['jest-emotion'],
+  // set the coverage path to select
+  collectCoverageFrom: ['**/src/**/*.js'],
 }
