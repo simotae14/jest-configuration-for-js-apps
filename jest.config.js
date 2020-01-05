@@ -4,10 +4,10 @@ module.exports = {
   // add a coverage threshold
   coverageThreshold: {
     global: {
-      statements: 31,
+      statements: 30,
       branches: 18,
       lines: 29,
-      functions: 29
+      functions: 28
     },
     // specific coverage threshold
     './src/shared/utils.js': {
